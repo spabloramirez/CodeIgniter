@@ -3,5 +3,5 @@
     <div id="main">
     <?php echo $news_item['text'] ?>
     </div>
-    <p><a href="news/<?php echo $news_item['slug'] ?>">Ver artículo</a></p>
+    <p><a href="<?php echo $news_item['slug'] ?>">Ver artículo</a></p>
 <?php endforeach ?>
