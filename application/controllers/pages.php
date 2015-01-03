@@ -1,5 +1,8 @@
 <?php
-
+/*
+http://localhost/codeigniter/index.php/
+http://localhost/codeigniter/index.php/about
+ */
 class Pages extends CI_Controller{
     public function view($page='home'){        
         if(!file_exists('application/views/pages/'.$page.'.php')){
